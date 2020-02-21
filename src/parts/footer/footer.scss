@@ -1,0 +1,11 @@
+/* Footer */
+
+.footer {
+  color: $footer-text-color;
+  display: inline-block;
+  width: 100%;
+  height: $footer-height;
+  background-color: $footer-background-color; /* #9999ff; */
+  padding: 15px;
+  box-sizing: border-box;
+}

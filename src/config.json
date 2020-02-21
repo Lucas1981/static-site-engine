@@ -1,0 +1,28 @@
+{
+  "general": {
+    "lang": "en"
+  },
+  "head": {
+    "replacements": [
+      { "symbol": "title", "value": "Lucas' kickass website generator" },
+      { "symbol": "description", "value": "Light-weight Node based website constructor" },
+      { "symbol": "author", "value": "Lucas van Heerikhuizen"}
+    ]
+  },
+  "header": {
+    "replacements": [
+      { "symbol": "title", "value": "Lucas' kickass website generator" }
+    ]
+  },
+  "sidebar": {
+    "replacements": []
+  },
+  "footer": {
+    "replacements": []
+  },
+  "pages": {
+    "index": {
+      "sidebar": false
+    }
+  }
+}

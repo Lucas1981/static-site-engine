@@ -1,0 +1,21 @@
+/* Content */
+
+.main {
+  display: flex;
+  min-height: calc(#{$content-height} - #{$header-height});
+}
+
+.content-with-sidebar,
+.content-no-sidebar {
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 0;
+}
+
+.content-with-sidebar {
+  width: $content-width;
+}
+
+.content-no-sidebar {
+  width: 100%;
+}

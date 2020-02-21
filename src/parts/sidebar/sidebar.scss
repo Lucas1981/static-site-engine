@@ -1,0 +1,12 @@
+/* Sidebar */
+
+.sidebar {
+  width: $sidebar-width;
+  /* background-color: #ff99ff; */
+  border-color: $border-color;
+  border-width: 0;
+  border-left-width: 1px;
+  border-style: solid;
+  padding: 15px;
+  box-sizing: border-box;
+}

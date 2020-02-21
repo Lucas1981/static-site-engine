@@ -1,0 +1,54 @@
+/* header */
+
+.header {
+  width: 100%;
+  height: $header-height;
+  /* background-color: #ff9999; */
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: lightgrey;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.header-inner {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list-item .active-page {
+  color: $primary-color-dark;
+  text-decoration: underline;
+}
+
+.logo-and-website-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  background-color: $logo-placeholder-color; /* #ffff99; */
+  display: inline-block;
+}
+
+.website-title {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.menu-list {
+}
+
+.menu-list-item {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-list-item-link {
+  text-decoration: none;
+}

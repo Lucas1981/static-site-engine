@@ -1,0 +1,23 @@
+$primary-color: blue;
+$primary-color-light: lighten($primary-color, 20);
+$primary-color-dark: darken($primary-color, 20);
+$background-color: white;
+$font-family: sans-serif;
+$mobile-width: 320px;
+$tablet-width: 640px;
+$laptop-width: 960px;
+$desktop-width: 1280px;
+$screen-cutoff-margin: 20px;
+$footer-background-color: #111111;
+$footer-text-color: white;
+$header-height: 80px;
+$logo-placeholder-color: $primary-color-light;
+$border-color: lightgrey;
+$content-width: 75%;
+$content-height: 90vh; // Note that the css actually extracts the $header-height
+$footer-height: 100vh - $content-height;
+$sidebar-width: 100% - $content-width;
+$button-background-color: $primary-color;
+$button-background-color-lighter: $primary-color-light;
+$button-background-color-darker: $primary-color-dark;
+$button-color: white;
